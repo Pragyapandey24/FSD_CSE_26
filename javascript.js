@@ -1,16 +1,16 @@
-let a,b,r
-a = 5
-b = 10
-r=a+b
+let a,b,r;
+a = 5;
+b = 10;
+r=a+b;
 console.log(r)
-const array = new array('a',10,true,{name:"pragya"})
+const array0 = new array('a',10,true,{name:"pragya"})
 // Data types-1 Primitive 2-Non-Primitive
 // let ,var, const-variables
 
-let a,b,c;
-a=5;
-b=10;
-c=a+b;
+let p,q,c;
+p=5;
+q=10;
+c=p+q;
 console.log(c);
 
 //  Array-used to store value of same type
@@ -22,11 +22,11 @@ const empty = [];
 const numbers = [1, 2, 3, 4, 5];
 const fruits = ['apple', 'banana', 'orange'];
 const mixed = [1, 'hello', true, null];
-const arr1 = ['a', 'b', 'c'];
+const arr01 = ['a', 'b', 'c'];
 
-console.log(arr1[0]); // 'red'
-console.log(arr1[2]); // 'blue'
-console.log(arr1[5]); // undefined (index out of bounds)
+console.log(arr01[0]); // 'red'
+console.log(arr01[2]); // 'blue'
+console.log(arr01[5]); // undefined (index out of bounds)
 
 const number = [1, 2];
 
@@ -54,7 +54,7 @@ const result = arr1.concat(arr2, arr3);
 
 console.log(result); // [1, 2, 3, 4, 5, 6]
  // we can also use ... to concat
- const r=[...a1,...arr2,...a3];
+ const r0=[...a1,...arr2,...a3];
 
  // objects -key value pairs
   let student ={
@@ -72,8 +72,8 @@ console.log(result); // [1, 2, 3, 4, 5, 6]
     return r;
     
    }
-   let result=sum(2,3)
-   console.log(result);
+   let result0=sum(2,3)
+   console.log(result0);
 
    //function example
 function greating_msg(f_name,l_name)
@@ -96,16 +96,16 @@ confirm("are you want to exit from here")
 prompt("Please enter the value of a")
 '24'
 
-let a = prompt("Enter the value of a")
-let b = prompt("Enter the value of b")
+let a01 = prompt("Enter the value of a")
+let b01= prompt("Enter the value of b")
 console.log(a+b)
 
-let a = parseInt(prompt("Enter the value of a"))
-let b = parseInt(prompt("Enter the value of b"))
+let a03 = parseInt(prompt("Enter the value of a"))
+let b03 = parseInt(prompt("Enter the value of b"))
 console.log(a+b)
 //output  34
 
-let a = parseFloat(prompt("Enter the value of a"))
-let b = parseFloat(prompt("Enter the value of b"))
+let a02 = parseFloat(prompt("Enter the value of a"))
+let b02 = parseFloat(prompt("Enter the value of b"))
 console.log(a+b)
 //output 134.4
