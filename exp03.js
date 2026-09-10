@@ -18,7 +18,7 @@ http.createServer((req,res) => {
                 <br><br>
                 <button style="padding:10px 20px;">Google Search</button>  
             </body>
-        </html>)`);
+        </html>`);
 }).listen(3001);
 
 console.log("Server running on port 3001");
