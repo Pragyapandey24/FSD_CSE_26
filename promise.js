@@ -53,4 +53,7 @@ const GetPromise=()=>{
 let promise = GetPromise();
 promise.then(()=>{
     console.log("promise is fulfilled");
-})
+});
+promise.catch(()=>{
+    console.log("network is not properly working");
+});
