@@ -15,7 +15,6 @@ let products = [
         price: 55000,
         quantity: 10
     },
-    
     {
         id: 2,
         name: "Mobile Phone",
